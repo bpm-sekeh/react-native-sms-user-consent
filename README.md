@@ -1,3 +1,5 @@
+this is just a from from: https://github.com/akvelon/react-native-sms-user-consent
+
 # React Native SMS User Consent
 
 React Native wrapper for Android's SMS User Consent API, ready to use in React Native apps with minimum effort. The purpose of SMS User Consent API is to provide one-tap auto-filling of SMS verification codes.
@@ -10,16 +12,16 @@ If you want auto-filling on iOS, `textContentType="oneTimeCode"` for `TextInput`
 
 ## Getting started
 
-Install [the package](https://www.npmjs.com/package/@eabdullazyanov/react-native-sms-user-consent):
+Install [the package](https://www.npmjs.com/package/@bpm-sekeh/react-native-sms-user-consent):
 
 ```
-yarn add @eabdullazyanov/react-native-sms-user-consent
+yarn add @bpm-sekeh/react-native-sms-user-consent
 ```
 
 or
 
 ```
-npm install @eabdullazyanov/react-native-sms-user-consent
+npm install @bpm-sekeh/react-native-sms-user-consent
 ```
 
 ## Basic usage
@@ -28,7 +30,7 @@ npm install @eabdullazyanov/react-native-sms-user-consent
 import React, { useEffect, useState } from 'react';
 import { TextInput } from 'react-native';
 
-import { useSmsUserConsent } from '@eabdullazyanov/react-native-sms-user-consent';
+import { useSmsUserConsent } from '@bpm-sekeh/react-native-sms-user-consent';
 
 const Example = () => {
   const [code, setCode] = useState();
@@ -111,22 +113,7 @@ SmsUserConsent.useSmsUserConsent();
 // ...
 ```
 
-## Help
-
-If you have any ideas about the project or found a bug or have a question, feel free to create an issue with all the relevant information. We are engaged to response ASAP. The following info will make it faster to resolve issues:
-
-1. Device or emulator model
-2. Android version
-3. Your environment info - output of the `npx react-native info` command
-
 ## Contribution
 
-PRs are always welcome. If you're feeling like contributing to the project, please do. It would be great to have all the relevant information with the PR.
-
-To make changes, you'll need to follow these steps:
-
-1. clone the repo
-2. make changes
-3. test the changes
-4. create a PR
-5. 🥳
+please contribute to the original repo :)
+https://github.com/akvelon/react-native-sms-user-consent
